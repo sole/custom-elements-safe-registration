@@ -11,7 +11,9 @@ This little module will help you avoid repetition. Use it instead of directly ca
 ```javascript
 var safeRegisterElement = require('safe-register-element');
 
-safeRegisterElement(customElementPrototype, 'custom-name');
+// safeRegisterElement(type, prototype);
+// e.g.:
+safeRegisterElement('custom-name', customElementPrototype);
 ```
 
 If an exception is thrown, it will be caught instead of breaking your code, and an error message will be output to the console. Watch out for these!
