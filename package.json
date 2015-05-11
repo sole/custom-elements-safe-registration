@@ -1,0 +1,25 @@
+{
+  "name": "safe-register-element",
+  "version": "1.0.0",
+  "description": "A safe(r) way of registering custom elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sole/safe-register-element.git"
+  },
+  "keywords": [
+    "custom",
+    "elements",
+    "web",
+    "components"
+  ],
+  "author": "sole",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/sole/safe-register-element/issues"
+  },
+  "homepage": "https://github.com/sole/safe-register-element#readme"
+}
